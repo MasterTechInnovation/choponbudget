@@ -2,7 +2,7 @@
   "name": "choponbudget-app",
   "private": true,
   "version": "0.0.0",
-  "description": "a Sails application",
+  "description": "a customized meal management application",
   "keywords": [],
   "dependencies": {
     "sails": "^1.2.3",
@@ -33,7 +33,7 @@
     "type": "git",
     "url": "git://github.com/anonymous node/sails user/choponbudget-app.git"
   },
-  "author": "anonymous node/sails user",
+  "author": "Trompet Technologies Company Limited",
   "license": "",
   "engines": {
     "node": "^10.16"
