@@ -8,10 +8,15 @@
 module.exports = {
 
   attributes: {
-
+    name: {
+      type: "string"
+    },
     category: {
       type: 'string',
       example: 'soup'
+    },
+    recipe: {
+      type: "String"
     }
   },
 
