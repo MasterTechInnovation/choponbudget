@@ -17,6 +17,9 @@ module.exports = {
     },
     recipe: {
       type: "String"
+    },
+    amount: {
+      type: "number"
     }
   },
 
