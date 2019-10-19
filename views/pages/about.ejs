@@ -1,0 +1,17 @@
+<div id="contact" v-cloak>
+    <div class="container">
+      <h1 class="text-center">About Chop on Budget</h1>
+      <div class="contact-form" v-if="!cloudSuccess">
+        <p class="text-center">Find out More about Chop on Budget.</p>
+        <hr/>
+        
+      </div>
+      <div class="success-message" v-if="cloudSuccess">
+        <p class="text-center">Thanks for reaching out!</p>
+        <hr/>
+        
+      </div>
+    </div>
+  </div>
+  <%- /* Expose locals as `window.SAILS_LOCALS` :: */ exposeLocalsToBrowser() %>
+  
